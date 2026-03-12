@@ -1,0 +1,311 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "edc38267-c0db-4f5a-aa2e-8c122e96a781",
+   "metadata": {},
+   "source": [
+    "#variable declartion using python"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "63a57b4a-9906-457c-bfc4-bd2e4d8a27d6",
+   "metadata": {},
+   "source": [
+    "#variable(object) = value(datatypes)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "1afff398-a20d-4f59-bd44-decf5748a531",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4576"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nit = 4576\n",
+    "nit"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "c9139803-e7f1-4ea8-a209-a6ab867b0d8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to literal here. Maybe you meant '==' instead of '='? (1604685822.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[2]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31m1030 = nit\u001b[39m\n    ^\n\u001b[31mSyntaxError\u001b[39m\u001b[31m:\u001b[39m cannot assign to literal here. Maybe you meant '==' instead of '='?\n"
+     ]
+    }
+   ],
+   "source": [
+    "1030 = nit\n",
+    "1030"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "0a7edb00-9084-4f96-852c-ce122990c9f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nit1 = 10\n",
+    "nit1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "3d979283-2f2a-4883-8e63-7967261cd2bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4576"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nit\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "8ffeaebc-aa36-48d8-8add-5a74570140e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "79"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nit_ = 79\n",
+    "nit_"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "700add86-2f49-4474-af6c-a21667467638",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "43"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "_nit = 43\n",
+    "_nit "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e057d23e-1b8e-4bce-996c-6f63b666928a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import keyword\n",
+    "keyword.kwlist"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a76b6824-b184-4315-8180-423d9b3c7ef6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "False\n",
+    "\n",
+    "None\n",
+    "\n",
+    "True\n",
+    "\n",
+    "and\n",
+    "\n",
+    "as\n",
+    "\n",
+    "assert\n",
+    "\n",
+    "async\n",
+    "\n",
+    "await\n",
+    "\n",
+    "break\n",
+    "\n",
+    "class\n",
+    "\n",
+    "continue\n",
+    "\n",
+    "def\n",
+    "\n",
+    "del\n",
+    "\n",
+    "elif\n",
+    "\n",
+    "else\n",
+    "\n",
+    "except\n",
+    "\n",
+    "finally\n",
+    "\n",
+    "for\n",
+    "\n",
+    "from\n",
+    "\n",
+    "global\n",
+    "\n",
+    "if\n",
+    "\n",
+    "import\n",
+    "\n",
+    "in\n",
+    "\n",
+    "is\n",
+    "\n",
+    "lambda\n",
+    "\n",
+    "nonlocal\n",
+    "\n",
+    "not\n",
+    "\n",
+    "or\n",
+    "\n",
+    "pass\n",
+    "\n",
+    "raise\n",
+    "\n",
+    "return\n",
+    "\n",
+    "try\n",
+    "\n",
+    "while\n",
+    "\n",
+    "with\n",
+    "\n",
+    "yield"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "b11f8de2-c87c-4a22-b082-0b2a2af018af",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'keyword' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[7]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m \u001b[38;5;28mlen\u001b[39m(\u001b[43mkeyword\u001b[49m.kwlist)\n",
+      "\u001b[31mNameError\u001b[39m: name 'keyword' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "len(keyword.kwlist)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "781b9039-c427-403f-8d53-814688c3e6be",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "50"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "For = 50\n",
+    "For"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "16bccb3c-79ad-462c-9368-5653824fc15c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
